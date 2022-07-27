@@ -27,8 +27,8 @@ It was trained on 50 000 images (augmented data included).
 |    avg     |   0.75    |    0.74    |   0.74   |    957   |
 |    weighted avg     |   0.92    |    0.91    |   0.91   |    957   |
 
-- Recall shows if the classifier able to detect a class;
-- Precision shows if the classifier detect a class correctly;
+- Recall shows if the classifier is able to detect a class;
+- Precision shows if the classifier is able to detect a class correctly;
 - F1 Score is a harmonic mean of the recall and precision. In common words: the higher - the better.
 
 In case of android the model was converted to tflite with merged metadata with [TensorFlow Lite metadata script](https://www.tensorflow.org/lite/models/convert/metadata#examples "Adding metadata to TensorFlow lite models").
